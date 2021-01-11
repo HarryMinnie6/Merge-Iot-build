@@ -42,7 +42,7 @@ function App() {
           </Route>
 
           <Route path='/'>
-          <ComingSoon />
+          <Home />
           </Route>
         </Switch>
       </AnimatePresence>
