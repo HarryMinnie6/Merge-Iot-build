@@ -46,7 +46,8 @@ function ComingSoon() {
   return (
     <div className='comingSoon'>
       <h1>GOING LIVE IN</h1>
-      <div className='comingSoon__timeDisplay'></div>
+      <div className='comingSoon__timeDisplay'>
+      {timerComponents.length ? timerComponents : <span>Time's up!</span>}</div>
       <div className='contact__info'>
         <h3> Contact Information</h3>
         <div>
