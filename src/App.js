@@ -42,8 +42,7 @@ function App() {
           </Route>
 
           <Route path='/'>
-          <Navbar/>
-            <Home/>
+          <ComingSoon />
           </Route>
         </Switch>
       </AnimatePresence>
