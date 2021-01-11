@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { motion } from "framer-motion";
+
+import Fade from 'react-reveal/Fade';
 function HomePage() {
+  //parralax effect
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => {
     setOffsetY(window.pageYOffset);
@@ -12,6 +15,8 @@ function HomePage() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -24,8 +29,10 @@ function HomePage() {
           Where Iot comes together
         </h1>
       </div>
-
-      <div className='homePage__about'>ffjfjf</div>
+      <Fade left>
+      <div className='homePage__about '>ffjfjf</div>
+    </Fade>
+      
     </motion.div>
   );
 }
