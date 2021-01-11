@@ -1,0 +1,13 @@
+.homePage__landing{
+   min-height: 50vh;
+   display: flex;
+   flex-direction: column;
+}
+.homePage__landing > h1 {
+    font-size: 90px;
+   
+}
+.homePage__about{
+    height: 100vh;
+    background-color: gray;
+}

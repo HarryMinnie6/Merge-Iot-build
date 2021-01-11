@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./ComingSoon.css";
+import moment from "moment";
 
 function ComingSoon() {
   const calculateTimeLeft = () => {
@@ -41,12 +42,11 @@ function ComingSoon() {
       </div>
     );
   });
+
   return (
     <div className='comingSoon'>
       <h1>GOING LIVE IN</h1>
-      <div className='comingSoon__timeDisplay'>
-        {timerComponents.length ? timerComponents : " "}
-      </div>
+      <div className='comingSoon__timeDisplay'></div>
       <div className='contact__info'>
         <h3> Contact Information</h3>
         <div>
