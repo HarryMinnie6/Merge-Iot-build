@@ -1,20 +1,22 @@
-.homePage__landing{
-    /* box-sizing: border-box; */
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   /* width: 100vw; */
+.homePage__landing {
+  /* box-sizing: border-box; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* width: 100vw; */
 }
 .homePage__landing > h1 {
-    font-size: 50px;
-    background-color: red;
-   
+  font-size: 50px;
+  background-color: red;
 }
-.homePage__about{
-    box-sizing: border-box;
-    padding: 0;
-    margin:0;
-    height: 100vh;
-    /* width: 90vw; */
-    background-color: gray;
+.homePage__about {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  /* width: 90vw; */
+  background-color: gray;
 }

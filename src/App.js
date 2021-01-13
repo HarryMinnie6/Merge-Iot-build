@@ -1,7 +1,9 @@
+import React from "react";
+
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import ComingSoon from "./Pages/ComingSoonPage/ComingSoon";
+// import ComingSoon from "./Pages/ComingSoonPage/ComingSoon";
 import About from "./Pages/AboutPage/About";
 import Home from "./Pages/HomePage/Home";
 import Navbar from "./Components/Navbar/Navbar";
@@ -16,33 +18,34 @@ function App() {
     <Router>
       <AnimatePresence>
         <Switch>
-          <Route path='/contact'>
-          <Navbar/>
+          <Route path="/contact">
+            <Navbar />
             <Contact />
           </Route>
-          <Route path='/partners'>
-          <Navbar/>
+          <Route path="/partners">
+            <Navbar />
             <Partners />
           </Route>
-          <Route path='/blog'>
-          <Navbar/>
+          <Route path="/blog">
+            <Navbar />
             <Blog />
           </Route>
-          <Route path='/solutions'>
-          <Navbar/>
+          <Route path="/solutions">
+            <Navbar />
             <Solutions />
           </Route>
-          <Route path='/services'>
-          <Navbar/>
+          <Route path="/services">
+            <Navbar />
             <Services />
           </Route>
-          <Route path='/about'>
-          <Navbar/>
+          <Route path="/about">
+            <Navbar />
             <About />
           </Route>
 
-          <Route path='/'>
-          <Home />
+          <Route path="/">
+            <Navbar />
+            <Home />
           </Route>
         </Switch>
       </AnimatePresence>
