@@ -25,17 +25,10 @@ function HomePage() {
     >
       <div className="homePage__landing">
         <h1 style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
-          Where Iot comes together
+          MERGE-IoT
         </h1>
       </div>
-      <Fade left>
-        <div
-          className="homePage__about"
-          style={{ transform: `translateY(${offsetY * 0.5}px)` }}
-        >
-          ffjfjf
-        </div>
-      </Fade>
+    
     </motion.div>
   );
 }

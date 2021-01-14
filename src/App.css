@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Goldman&family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+@import url(//db.onlinewebfonts.com/c/cb411addb2defea511c51f6adb88b44e?family=Frank+Regular);
+@font-face {font-family: "Frank Regular"; src: url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.eot"); src: url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.woff") format("woff"), url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/cb411addb2defea511c51f6adb88b44e.svg#Frank Regular") format("svg"); }
 
 *{
   margin: 0;
   padding: 0;
-  
+  font-family: 'Chivo', sans-serif;
 }

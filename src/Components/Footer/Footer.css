@@ -1,0 +1,234 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 39);
+  background-image: linear-gradient(to right, #5f2c82, #2f73b9);
+  color: white;
+  align-items: center;
+  height: fit-content;
+  /* padding: 50px 0 0 0; */
+}
+.footer__top {
+  margin: 60px 0 50px 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__top-left {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__slogan > h1 {
+  font-family: "Frank Regular", "san-serif";
+  justify-self: flex-start;
+  width: 435px;
+  font-size: 80px;
+}
+.footer__logo-holder {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__top-right {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer__bottom {
+  width: 100%;
+}
+.footer__logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 0 20px 0;
+}
+.svg-logo {
+  width: 100%;
+  height: 100%;
+}
+.footer__links-holder-right {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer__list {
+  list-style: none;
+}
+.footer__link {
+  /* color: #58317E;
+  color: #4BA7BA; */
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+.footer__option {
+  margin: 10px 0;
+  color: white;
+}
+.footer__contact-header {
+  display: flex;
+  align-items: center;
+}
+.footer__contact-header > .mail {
+  font-size: 22px;
+  padding: 0 0px 0 5px;
+}
+.footer__contact-email > p {
+  margin: 10px 0;
+}
+.footer__bottom-line {
+  width: 80%;
+  height: 1px;
+  display: block;
+  background-color: rgb(243, 243, 243);
+}
+.footer__bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+.footer_one,
+.footer_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 20px 0;
+}
+.footer_one > p {
+  color: white;
+  font-weight: lighter;
+}
+.footer_two > p {
+  color: white;
+  font-size: 13px;
+  font-family: "Architects Daughter", cursive;
+}
+@media (max-width: 1434px) {
+  .footer__top {
+    width: 90%;
+  }
+  .footer__slogan > h1 {
+    width: 330px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__slogan > h1 {
+    width: 330px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 950px) {
+  .footer__top {
+    margin: 50px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__links-holder-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .footer__top-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer__top-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__slogan > h1 {
+    width: 250px;
+    font-size: 50px;
+  }
+  .footer__bottom-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer_one,
+  .footer_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .footer__slogan > h1 {
+    width: 200px;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 520px) {
+  .footer__wrapper {
+    width: 90%;
+  }
+  .footer__top {
+    margin: 50px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__top-left {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  .footer__slogan > h1 {
+    width: 275px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .footer__logo {
+    width: 60px;
+    height: 80px;
+    margin: 20px 0 20px 0;
+  }
+  .footer__links-holder-right {
+    width: 275px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer__top-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  .footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 420px) {
+  .footer__wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -12,6 +12,7 @@ import Solutions from "./Pages/Solutions/Solutions";
 import Contact from "./Pages/ContactPage/Contact";
 import Partners from "./Pages/PartnersPage/Partners";
 import Blog from "./Pages/Blog&NewsPage/Blog";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/">
             <Navbar />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </AnimatePresence>
