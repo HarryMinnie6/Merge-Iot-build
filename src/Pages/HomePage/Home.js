@@ -28,14 +28,14 @@ function HomePage() {
           Where Iot comes together
         </h1>
       </div>
-      <Fade left>
+      {/* <Fade left>
         <div
           className="homePage__about"
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         >
           ffjfjf
         </div>
-      </Fade>
+      </Fade> */}
     </motion.div>
   );
 }
