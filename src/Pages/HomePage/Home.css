@@ -1,19 +1,22 @@
-.homePage__landing {
+.homePage {
   /* box-sizing: border-box; */
-  min-height: 100vh;
+  height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  /* background-color: rgb(197, 114, 114); */
   /* width: 100vw; */
+}
+.homePage__landing {
 }
 .homePage__landing > h1 {
   font-size: 50px;
   /* background-color: red; */
-  font-family: "Frank Regular",'san-serif';
-font-style: normal;
-font-weight: lighter;
+  font-family: "Frank Regular", "san-serif";
+  font-style: normal;
+  font-weight: lighter;
 }
 .homePage__about {
   box-sizing: border-box;
@@ -22,4 +25,32 @@ font-weight: lighter;
   height: fit-content;
   /* width: 90vw; */
   background-color: gray;
+}
+.homePage__arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  bottom: -30px;
+  z-index: 2;
+}
+.homePage__arrow > p {
+  font-size: 10px;
+}
+.homePage__arrow2 > p {
+  font-size: 10px;
+}
+.homePage__arrow2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateY(-50%);
+  bottom: -30px;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 500ms linear;
 }

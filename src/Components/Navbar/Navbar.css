@@ -1,8 +1,8 @@
 /*Desktop View*/
 .header {
-  /* position: fixed; */
+  position: fixed;
   /* top:0; */
-  /* width: 100vw; */
+  width: 100vw;
   display: flex;
   background: rgb(255, 255, 255);
   border-bottom: 1px solid rgb(243, 243, 243);
@@ -12,6 +12,24 @@
   height: 80px;
   z-index: 99;
   box-sizing: border-box;
+  transition: opacity 500ms ease-in-out;
+}
+.header2 {
+  position: fixed;
+  /* top:0; */
+  width: 100vw;
+  display: flex;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(243, 243, 243);
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 40px; */
+  height: 80px;
+  z-index: 99;
+  box-sizing: border-box;
+  /* top: -60px; */
+  opacity: 0;
+  transition: opacity 300ms ease-out;
 }
 .logo-nav {
   position: absolute;
