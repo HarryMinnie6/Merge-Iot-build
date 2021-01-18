@@ -32,16 +32,17 @@
   transition: opacity 300ms ease-out;
 }
 .logo-nav {
+  padding:0;
   position: absolute;
   left: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  background-color: green;
+  justify-content: center;
+  /* background-color: green; */
 }
 
 .logo {
-  width: 45px;
+  /* width:150px; */
   height: 45px;
 }
 .nav-options {
@@ -86,9 +87,7 @@
 }
 @media (max-width: 768px) {
   /*Mobile View */
-  .header {
-    /* padding: 0px 10px; */
-  }
+ 
   .logo {
     width: 45px;
     height: 45px;

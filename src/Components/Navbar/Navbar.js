@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { ReactComponent as CloseMenu } from "./assets/x.svg";
 import { ReactComponent as MenuIcon } from "./assets/menu.svg";
-import { ReactComponent as Logo } from "./assets/logo.svg";
+import { ReactComponent as Logo } from "./assets/secondary-logo.svg";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 

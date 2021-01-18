@@ -1,5 +1,5 @@
 .homePage {
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   height: 100vh;
   position: relative;
   display: flex;
@@ -9,48 +9,19 @@
   /* background-color: rgb(197, 114, 114); */
   /* width: 100vw; */
 }
-.homePage__landing {
-}
-.homePage__landing > h1 {
-  font-size: 50px;
+.homePage__logo{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
   /* background-color: red; */
-  font-family: "Frank Regular", "san-serif";
-  font-style: normal;
-  font-weight: lighter;
 }
-.homePage__about {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  height: fit-content;
-  /* width: 90vw; */
-  background-color: gray;
+.homePage__Name{
+  
+
 }
-.homePage__arrow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateY(-50%);
-  bottom: -30px;
-  z-index: 2;
+.homePage__slogan{
+  margin-top: 20px;
 }
-.homePage__arrow > p {
-  font-size: 10px;
-}
-.homePage__arrow2 > p {
-  font-size: 10px;
-}
-.homePage__arrow2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateY(-50%);
-  bottom: -30px;
-  z-index: 2;
-  opacity: 0;
-  transition: opacity 500ms linear;
-}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
