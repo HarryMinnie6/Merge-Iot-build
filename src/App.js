@@ -22,6 +22,7 @@ function App() {
           <Route path="/contact">
             <Navbar />
             <Contact />
+            <Footer />
           </Route>
           <Route path="/partners">
             <Navbar />
@@ -30,6 +31,7 @@ function App() {
           <Route path="/blog">
             <Navbar />
             <Blog />
+            <Footer />
           </Route>
           <Route path="/solutions">
             <Navbar />

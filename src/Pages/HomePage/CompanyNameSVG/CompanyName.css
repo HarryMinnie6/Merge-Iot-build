@@ -1,68 +1,100 @@
 .svg-name {
+  animation: fill 0.5s ease forwards 2.2s;
+  transition-delay: 2s;
+  width: 550px;
+  /* height:90px; */
+}
+.svg-name path:nth-child(1) {
+  stroke-dasharray: 402.20465087890625;
+  stroke-dashoffset: 402.20465087890625;
+  animation: line-anim 2s ease forwards;
+  /* stroke: black; */
+}
+.svg-name path:nth-child(2) {
+  stroke-dasharray: 340.5000305175781;
+  stroke-dashoffset: 340.5000305175781;
+  animation: line-anim 2s ease forwards;
+}
+.svg-name path:nth-child(3) {
+  stroke-dasharray: 373.3475036621094;
+  stroke-dashoffset: 373.3475036621094;
+  animation: line-anim 2s ease forwards;
+}
+.svg-name path:nth-child(4) {
+  stroke-dasharray: 353.3163146972656;
+  stroke-dashoffset: 353.3163146972656;
+  animation: line-anim 2s ease forwards;
+}
+.svg-name path:nth-child(5) {
+  stroke-dasharray: 340.5201110839844;
+  stroke-dashoffset: 340.5201110839844;
+  animation: line-anim 2.2s ease forwards;
+}
+.svg-name path:nth-child(6) {
+  stroke-dasharray: 150.93997192382812;
+  stroke-dashoffset: 150.93997192382812;
+  animation: line-anim 2s ease forwards;
+}
+.svg-name path:nth-child(7) {
+  stroke-dasharray: 268.5149841308594;
+  stroke-dashoffset: 268.5149841308594;
+  animation: line-anim 2s ease forwards 1s;
+}
+.svg-name path:nth-child(8) {
+  stroke-dasharray: 536.8495483398438;
+  stroke-dashoffset: 536.8495483398438;
+  animation: line-anim 2s ease forwards 1s;
+}
+.svg-name path:nth-child(9) {
+  stroke-dasharray: 225.91998291015625;
+  stroke-dashoffset: 225.91998291015625;
+  animation: line-anim 2s ease forwards;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #000000;
+  }
+}
+
+@media (max-width: 768px) {
+  .svg-name {
     animation: fill 0.5s ease forwards 2.2s;
     transition-delay: 2s;
-    width:550px;
-        /* height:90px; */
+    width: 400px;
+    /* height:90px; */
   }
-  .svg-name path:nth-child(1) {
-    stroke-dasharray: 402.20465087890625;
-    stroke-dashoffset: 402.20465087890625;
-    animation: line-anim 2s ease forwards;
-    /* stroke: black; */
+}
+@media (max-width: 630px) {
+  .svg-name {
+    animation: fill 0.5s ease forwards 2.2s;
+    transition-delay: 2s;
+    width: 350px;
+    /* height:90px; */
   }
-  .svg-name path:nth-child(2) {
-    stroke-dasharray: 340.5000305175781;
-    stroke-dashoffset: 340.5000305175781;
-    animation: line-anim 2s ease forwards;
+}
+@media (max-width: 450px) {
+  .svg-name {
+    animation: fill 0.5s ease forwards 2.2s;
+    transition-delay: 2s;
+    width: 300px;
+    /* height:90px; */
   }
-  .svg-name path:nth-child(3) {
-    stroke-dasharray: 373.3475036621094;
-    stroke-dashoffset: 373.3475036621094;
-    animation: line-anim 2s ease forwards;
+}
+@media (max-width: 400px) {
+  .svg-name {
+    animation: fill 0.5s ease forwards 2.2s;
+    transition-delay: 2s;
+    width: 270px;
+    /* height:90px; */
   }
-  .svg-name path:nth-child(4) {
-    stroke-dasharray: 353.3163146972656;
-    stroke-dashoffset: 353.3163146972656;
-    animation: line-anim 2s ease forwards;
-  }
-  .svg-name path:nth-child(5) {
-    stroke-dasharray: 340.5201110839844;
-    stroke-dashoffset: 340.5201110839844;
-    animation: line-anim 2.2s ease forwards;
-  }
-  .svg-name path:nth-child(6) {
-    stroke-dasharray: 150.93997192382812;
-    stroke-dashoffset: 150.93997192382812;
-    animation: line-anim 2s ease forwards;
-  }
-  .svg-name path:nth-child(7) {
-    stroke-dasharray: 268.5149841308594;
-    stroke-dashoffset: 268.5149841308594;
-    animation: line-anim 2s ease forwards 1s;
-  }
-  .svg-name path:nth-child(8) {
-    stroke-dasharray: 536.8495483398438;
-    stroke-dashoffset: 536.8495483398438;
-    animation: line-anim 2s ease forwards 1s;
-  }
-  .svg-name path:nth-child(9) {
-    stroke-dasharray: 225.91998291015625;
-    stroke-dashoffset: 225.91998291015625;
-    animation: line-anim 2s ease forwards;
-  }
-  
-  @keyframes line-anim {
-    to {
-      stroke-dashoffset: 0;
-    }
-  }
-  
-  @keyframes fill {
-    from {
-      fill: transparent;
-    }
-    to {
-      fill: #000000;
-    }
-  }
-  
+}

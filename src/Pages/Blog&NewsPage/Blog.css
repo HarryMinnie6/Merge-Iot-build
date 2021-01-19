@@ -1,3 +1,76 @@
-.blog{
-    height: 100vh;
+.blog {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog__postsHolder {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog__wrapper {
+  position: relative;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  height: fit-content;
+  flex-wrap: wrap;
+  /* background-color: green; */
+  width: 100%;
+}
+.blog__wrapper > p {
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  margin-bottom: 20px;
+  color: rgb(128, 128, 128);
+  /* background-color: red; */
+}
+.blog__post {
+  position: relative;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border-radius: 2px;
+  box-shadow: 1px 1px 6px rgb(163, 163, 163);
+}
+.blog__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.blog__description {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  transition: opacity 200ms ease-in-out;
+}
+.blog__description > h1 {
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  margin-top: 50px;
+}
+.blog__description > p {
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  margin-top: 30px;
+}
+.blog__post:hover .blog__description {
+  opacity: 1;
+  background-color: rgba(180, 180, 180, 0.4);
+  cursor: pointer;
 }
