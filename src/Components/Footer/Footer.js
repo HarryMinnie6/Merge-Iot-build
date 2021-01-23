@@ -43,8 +43,8 @@ function Footer() {
 
             <div className="footer__follow">
               <h3>Follow Us</h3>
-              <Link className="linkedIn__link">
-                <LinkedInIcon />{" "}
+              <Link>
+                <LinkedInIcon className="linkedIn__link" />
               </Link>
             </div>
           </div>

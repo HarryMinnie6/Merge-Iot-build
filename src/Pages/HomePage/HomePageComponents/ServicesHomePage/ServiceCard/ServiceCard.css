@@ -1,0 +1,65 @@
+.serviceCard {
+  position: relative;
+  border-radius: 5px;
+  max-width: 256px;
+  min-height: 200px;
+  margin: auto;
+  text-align: center;
+  background-color: #1f1f1f;
+  /* color: white; */
+  border: 1px solid #1f1f1f;
+  box-shadow: none;
+}
+.serviceCard:hover {
+  /* cursor: pointer; */
+  border: 1px solid #58317e;
+}
+.serviceDescription {
+  padding: 20px;
+  color: #ffffff;
+}
+.serviceDescription__paragraph {
+  color: #6d6d6d;
+}
+.serviceCard__button {
+  position: absolute;
+  bottom: -20px;
+  opacity: 0;
+  /* font-weight: lighter; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 95%;
+  border-radius: 5px;
+  margin-top: 24px;
+  text-transform: "initial";
+  color: rgb(75, 167, 186);
+  background-color: #1f1f1f;
+  transition: 0.2s ease-in-out;
+}
+
+.serviceCard__button:hover {
+  background-color: rgb(75, 167, 186);
+  color: white;
+}
+
+.serviceCard:hover .serviceCard__button {
+  bottom: 5px;
+  opacity: 1;
+}
+
+@media (max-width: 890px) {
+  .serviceCard {
+    max-width: 220px;
+  }
+}
+@media (max-width: 768px) {
+  .serviceCard {
+    max-width: 350px;
+    margin-bottom: 15px;
+  }
+}
+.test {
+  color: white;
+}

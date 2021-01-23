@@ -21,7 +21,7 @@ function Contact() {
             </Slide>
             <p>
               Whether you have a question about features, pricing, need a demo,
-              or anything else? We are ready to anser your questions.
+              or anything else. We are ready to answer your questions.
             </p>
 
             <div className="contact__left-contactDetails-Email">

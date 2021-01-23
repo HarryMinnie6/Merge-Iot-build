@@ -1,10 +1,15 @@
 .contact {
-  height: fit-content;
+  /* height: 90vh; */
+  position: relative;
   /* background-color: red; */
 }
 .contact__wrapper {
+  position: relative;
   padding-top: 100px;
   display: flex;
+  /* background-color: green; */
+  padding-bottom: 30px;
+  height: 100%;
 }
 .contact__left {
   display: flex;
@@ -16,16 +21,17 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  /* padding: 30px 20px; */
-  justify-content: center;
+  padding: 50px 0px;
+  /* justify-content: center; */
   height: 100%;
-  width: 350px;
+  width: 380px;
+  /* background-color: red; */
   /* width: 100%; */
 }
 .contact__left-contactDetails > h1 {
   margin: 0px 0 20px 0;
-  font-size: 34px;
-  line-height: 40px;
+  font-size: 70px;
+  /* line-height: 40px; */
 }
 .contact__left-contactDetails > p {
   color: rgb(128, 128, 128);
@@ -34,7 +40,11 @@
   font-size: 20px;
 }
 .contact__left-contactDetails-Email {
-  margin: 30px 0 30px 0;
+  position: absolute;
+  bottom: 0;
+  /* justify-self: first baseline; */
+  margin: 30px 0 10px 0;
+  /* background-color: blue */
 }
 .contact__left-contactDetails-Email p:nth-child(1) {
   color: rgb(80, 80, 80);
@@ -50,6 +60,7 @@
 }
 
 .contact__right {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,6 +78,9 @@
   /* background-color: green; */
 }
 .contact__right-location-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   margin: 20px 0 10px 0;
   padding-left: 20px;
   /* align-self: flex-start; */
@@ -75,6 +89,7 @@
   margin: 0 0 10px 0;
   font-size: 18px;
   color: rgb(128, 128, 128);
+  padding-left: 5px;
 }
 .contact__right-location {
   display: flex;
@@ -90,25 +105,51 @@
     width: 500px;
   }
 }
+@media (max-width: 1024px) {
+  .contact__left-contactDetails > h1 {
+    font-size: 50px;
+    /* line-height: 40px; */
+  }
+}
 @media (max-width: 950px) {
   .contact__left-contactDetails {
-    margin: 25px;
+    padding: 50px 0px;
+  }
+  .contact__left-contactDetails {
+    margin: 10px;
+    padding: 15px 0px;
   }
   .contact__right-image {
     width: 400px;
   }
   .contact__left-contactDetails > h1 {
-    margin: 20px 0;
-    font-size: 30px;
-    line-height: 40px;
+    margin: 20px 0 0 0;
+    font-size: 50px;
+    /* line-height: 40px; */
   }
   .contact__left-contactDetails > p {
     margin: 20px 0 0 0;
     line-height: 35px;
     font-size: 18px;
   }
+  .contact__right-location-wrapper > p {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+
+  .contact__right-location > p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 800px) {
+  .contact__left-contactDetails {
+    padding: 00px 0px;
+  }
+  .contact__left-contactDetails > h1 {
+    margin: 15px 0 0 0;
+    font-size: 40px;
+    /* line-height: 40px; */
+  }
   .contact__right-image {
     width: 350px;
   }
@@ -120,6 +161,15 @@
     display: flex;
     flex-direction: column;
   }
+  .contact__left-contactDetails {
+    padding: 00px 0px;
+    height: 380px;
+  }
+  .contact__left-contactDetails > p {
+    margin: 30px 0 0 0;
+    line-height: 35px;
+    font-size: 18px;
+  }
   .contact__right-location-wrapper {
     margin: 20px 0 10px 0;
     padding-left: 0px;
@@ -128,25 +178,29 @@
     align-items: center;
     align-self: center;
   }
+  .contact__right-location-wrapper {
+    top: 45%;
+    transform: translateY(-50%);
+  }
   .contact__right-location-wrapper > p {
     margin: 0 0 10px 0;
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact__right-location {
     display: flex;
   }
 
   .contact__right-location > p {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
 @media (max-width: 520px) {
   .contact__left-contactDetails {
-    height: 100%;
+    height: 340px;
     width: 300px;
   }
   .contact__left-contactDetails > h1 {
-    margin: 15px 0;
+    margin: 15px 0 10px 0;
     font-size: 25px;
     line-height: 30px;
   }
@@ -180,6 +234,12 @@
   }
 
   .contact__right-location > p {
-    font-size: 21px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .contact__left-contactDetails {
+    height: 340px;
+    width: 290px;
   }
 }

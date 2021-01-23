@@ -23,26 +23,30 @@ function HomePage() {
   }, []);
   return (
     <motion.div
-      className='homePage'
+      className="homePage"
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
       <Fade delay={2200}>
-        <div className='homePage__logo'
-        style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
+        <div
+          className="homePage__logo"
+          style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+        >
           <Logo />
         </div>
       </Fade>
       <div
-        className='homePage__Name'
+        className="homePage__Name"
         // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       >
         <CompanyName />
       </div>
       <Fade bottom delay={2200}>
-        <div className='homePage__slogan'
-        style={{ transform: `translateY(${offsetY * 0.5}px)` }}>
+        <div
+          className="homePage__slogan"
+          style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+        >
           <Slogan />
         </div>
       </Fade>

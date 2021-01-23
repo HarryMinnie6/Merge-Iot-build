@@ -13,6 +13,10 @@ import Contact from "./Pages/ContactPage/Contact";
 import Partners from "./Pages/PartnersPage/Partners";
 import Blog from "./Pages/Blog&NewsPage/Blog";
 import Footer from "./Components/Footer/Footer";
+import ServicesHomePage from "./Pages/HomePage/HomePageComponents/ServicesHomePage/ServicesHomePage";
+import AboutHomePage from "./Pages/HomePage/HomePageComponents/AboutHomePage/AboutHomePage";
+import PartnersHomePage from "./Pages/HomePage/HomePageComponents/PartnersHomePage/PartnersHomePage";
+import BlogHomePage from "./Pages/HomePage/HomePageComponents/BlogHomePage/BlogHomePage";
 
 function App() {
   return (
@@ -49,6 +53,10 @@ function App() {
           <Route path="/">
             <Navbar />
             <Home />
+            <ServicesHomePage />
+            <AboutHomePage />
+            <PartnersHomePage />
+            <BlogHomePage />
             <Footer />
           </Route>
         </Switch>

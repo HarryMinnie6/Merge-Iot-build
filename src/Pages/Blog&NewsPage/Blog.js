@@ -1,6 +1,7 @@
 import React from "react";
 import "./Blog.css";
 import { motion } from "framer-motion";
+import BlogCard from "./BlogCards/BlogCard";
 function Blog() {
   return (
     <motion.div
@@ -13,17 +14,27 @@ function Blog() {
         <p>Our Latest Blog & News Posts</p>
         <div className="blog__postsHolder">
           <div className="blog__wrapper">
-            <div className="blog__post">
-              <img
-                className="blog__image"
-                src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                alt="blog"
-              />
-              <div className="blog__description">
-                <h1>Title</h1>
-                <p>Some Random text...</p>
-              </div>
-            </div>
+            <BlogCard
+              date={"March 20, 2019"}
+              title={"test"}
+              paragraph={
+                "Lizards are a widespread group of squamate reptiles with over 60000 species ranging across all continents except Antarctica"
+              }
+            />
+            <BlogCard
+              date={"March 20, 2019"}
+              title={"test"}
+              paragraph={
+                "Lizards are a widespread group of squamate reptiles with over 60000 species ranging across all continents except Antarctica"
+              }
+            />
+            <BlogCard
+              date={"March 20, 2019"}
+              title={"test"}
+              paragraph={
+                "Lizards are a widespread group of squamate reptiles with over 60000 species ranging across all continents except Antarctica"
+              }
+            />
           </div>
         </div>
       </div>
