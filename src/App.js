@@ -48,6 +48,7 @@ function App() {
           <Route path="/about">
             <Navbar />
             <About />
+            <Footer />
           </Route>
 
           <Route path="/">

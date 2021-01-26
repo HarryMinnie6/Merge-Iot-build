@@ -107,6 +107,7 @@
 }
 @media (max-width: 1024px) {
   .contact__left-contactDetails > h1 {
+    margin: 20px 0 0 0;
     font-size: 50px;
     /* line-height: 40px; */
   }
@@ -122,11 +123,7 @@
   .contact__right-image {
     width: 400px;
   }
-  .contact__left-contactDetails > h1 {
-    margin: 20px 0 0 0;
-    font-size: 50px;
-    /* line-height: 40px; */
-  }
+
   .contact__left-contactDetails > p {
     margin: 20px 0 0 0;
     line-height: 35px;
@@ -197,7 +194,7 @@
 @media (max-width: 520px) {
   .contact__left-contactDetails {
     height: 340px;
-    width: 300px;
+    width: 290px;
   }
   .contact__left-contactDetails > h1 {
     margin: 15px 0 10px 0;
@@ -235,11 +232,5 @@
 
   .contact__right-location > p {
     font-size: 20px;
-  }
-}
-@media (max-width: 520px) {
-  .contact__left-contactDetails {
-    height: 340px;
-    width: 290px;
   }
 }

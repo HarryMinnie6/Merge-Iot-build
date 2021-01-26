@@ -20,9 +20,9 @@
   justify-content: center;
 }
 .about__wrapperHeader {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   align-self: flex-start;
-  background-color: red;
+  /* background-color: red; */
 }
 .about__paragraph {
   width: 100%;

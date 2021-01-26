@@ -10,7 +10,7 @@ function Blog() {
       animate={{ opacity: 1 }}
       className="blog"
     >
-      <div className="blog__wrapper">
+      <div className="blog__Pagewrapper">
         <p>Our Latest Blog & News Posts</p>
         <div className="blog__postsHolder">
           <div className="blog__wrapper">

@@ -1,5 +1,5 @@
 .about__founders {
-  margin-top: 80px;
+  margin: 80px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,10 +7,10 @@
 .about__founders > p {
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .about__foundersHeader {
-  margin: 30px 0;
+  margin: 100px 0 50px 0;
   font-size: 70px;
   max-width: 800px;
   text-align: center;

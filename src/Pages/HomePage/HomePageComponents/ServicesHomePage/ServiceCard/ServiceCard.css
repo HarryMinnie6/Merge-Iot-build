@@ -5,10 +5,10 @@
   min-height: 200px;
   margin: auto;
   text-align: center;
-  background-color: #1f1f1f;
+  background-color:#1f1f1f !important;
   /* color: white; */
-  border: 1px solid #1f1f1f;
-  box-shadow: none;
+  border: 1px solid #1f1f1f !important;
+  box-shadow: none !important;
 }
 .serviceCard:hover {
   /* cursor: pointer; */

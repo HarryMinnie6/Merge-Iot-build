@@ -13,9 +13,9 @@
   justify-content: center;
   align-items: center;
 }
-.blog__wrapper {
+.blog__Pagewrapper {
   position: relative;
-  padding-top: 100px;
+  padding: 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,19 @@
   /* background-color: green; */
   width: 100%;
 }
-.blog__wrapper > p {
+.blog__wrapper {
+  position: relative;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  /* height: fit-content; */
+  flex-wrap: wrap;
+  /* background-color: green; */
+  width: 100%;
+}
+.blog__Pagewrapper > p {
   position: absolute;
   top: 120px;
   left: 20%;
