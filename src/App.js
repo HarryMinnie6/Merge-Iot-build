@@ -31,6 +31,7 @@ function App() {
           <Route path="/partners">
             <Navbar />
             <Partners />
+            <Footer />
           </Route>
           <Route path="/blog">
             <Navbar />
