@@ -107,7 +107,7 @@ function Footer() {
             <p>© 2021 MERGE-IoT®</p>
           </div>
           <div className="footer_two">
-            <p>Created by Harry Minnie</p>
+            <p>Created by Normanlly</p>
           </div>
         </div>{" "}
       </div>

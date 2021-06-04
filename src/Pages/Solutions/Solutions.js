@@ -9,7 +9,8 @@ function Solutions() {
       animate={{ opacity: 1 }}
       className='solutions'
     >
-      <h1>solutions</h1>
+      <h1>Solutions</h1>
+      <p>Coming Soon</p>
     </motion.div>
   );
 }

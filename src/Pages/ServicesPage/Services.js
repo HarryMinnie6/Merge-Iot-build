@@ -10,6 +10,7 @@ function Services() {
       className='services'
     >
       <h1>Services</h1>
+      <p>Coming Soon</p>
     </motion.div>
   );
 }
